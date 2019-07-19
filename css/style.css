@@ -21,9 +21,13 @@
     color:white;
     margin-left: 20px;
     margin-left: 20px;
+    margin-bottom: 25px;
 
     
 }
 #left{
     margin-right: 15px;
+}
+#right{
+    margin-left: 29px;
 }
