@@ -11,7 +11,45 @@ if(day===0&&gender==='male'){
     console.log("your day name is Kwasi");
 }
 else if(day===1&&gender==='male'){
-        console.log("your day name is Kwasi");
+        console.log("your day name is Kwadwo");
     }
-)
+    else if(day===2&&gender==='male'){
+        console.log("your day name is Kwabena");
+    }
+    else if(day===3&&gender==='male'){
+        console.log("your day name is kwaku");
+    }
+    else if(day===4&&gender==='male'){
+        console.log("your day name is yaw");
+    }
+    else if(day===5&&gender==='male'){
+        console.log("your day name is Kofi");
+    }
+    else if(day===6&&gender==='male'){
+        console.log("your day name is Kwame");
+    }
+    else if(day===0&&gender==='female'){
+        console.log("your day name is Akosua");
+    }
+    else if(day===1&&gender==='female'){
+        console.log("your day name is Adwoa");
+        
+    }
+    else if(day===2&&gender==='female'){
+        console.log("your day name is Abenaa");
+    }
+    else if(day===3&&gender==='female'){
+        console.log("your day name is akua");
+    }
+    else if(day===4&&gender==='female'){
+        console.log("your day name is Yaa");
+    }
+    else if(day===5&&gender==='female'){
+        console.log("your day name is Afua");
+    }
+    else if(day===6&&gender==='female'){
+        console.log("your day name is Ama");
+    }
+    
+
 
