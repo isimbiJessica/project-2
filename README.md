@@ -1,6 +1,7 @@
 # project-2
 ## Jessica's Second Project
 ### Description
+this akan name app checks the day where the babies was born and give them the names
 in this app include:
 - Gender
 - Date
