@@ -1,55 +1,73 @@
-var dd = parseInt (prompt("enter the day you were born:"));
+
+/*var dd = parseInt (prompt("enter the day you were born:"));
 var mm = parseInt (prompt("enter the month you were born in:"));
 var yy = parseInt (prompt("Enter the year you were born in:"));
 var cc = parseInt (prompt("enter the century:"));
-var gender = prompt("enter your Gender");
-var formular=(((cc/4 -2*cc-1)+((5*yy/4))+((26*(mm+1)/10))+dd)%7);
+*/
+
+
+function one(){
+var n = document.getElementById("name").value;
+var input = document.getElementById("outer").value;
+var two= new Date(input);
+var yy=two.getFullYear();
+var dd=two.getDay();
+var mm=two.getMonth();
+mm=mm+1;
+console.log(yy);
+console.log(dd);
+console.log(mm);
+var cc=document.getElementById("four").value;
+var gender = document.getElementById("six").value;
+console.log(gender);
+var formular=(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
 var day=Math.floor(formular);
-console.log("formular");
-console.log("gender");
-if(day===0&&gender==='male'){
-    console.log("your day name is Kwasi");
+console.log(day);
+if(day== 0 && gender == 'male'){
+    alert("your day name is Kwasi");
 }
-else if(day===1&&gender==='male'){
-        console.log("your day name is Kwadwo");
+else if(day==1&&gender=='male'){
+        // alert("your day name is Kwadwo");
+        document.getElementById(n).innerHtML= 'Kwado' 
     }
-    else if(day===2&&gender==='male'){
-        console.log("your day name is Kwabena");
+    else if(day==2 && gender=='male'){
+        alert("your day name is Kwabena");
     }
-    else if(day===3&&gender==='male'){
-        console.log("your day name is kwaku");
+    else if(day==3 && gender=='male'){
+        alert("your day name is kwaku");
     }
-    else if(day===4&&gender==='male'){
-        console.log("your day name is yaw");
+    else if(day==4 && gender=='male'){
+        alert("your day name is yaw");
     }
-    else if(day===5&&gender==='male'){
-        console.log("your day name is Kofi");
+    else if(day==5 && gender=='male'){
+        alert("your day name is Kofi");
     }
-    else if(day===6&&gender==='male'){
-        console.log("your day name is Kwame");
+    else if(day==6 && gender=='male'){
+        alert("your day name is Kwame");
     }
-    else if(day===0&&gender==='female'){
-        console.log("your day name is Akosua");
+    else if(day===0 && gender==='female'){
+        alert("your day name is Akosua");
     }
     else if(day===1&&gender==='female'){
-        console.log("your day name is Adwoa");
+        alert("your day name is Adwoa");
         
     }
     else if(day===2&&gender==='female'){
-        console.log("your day name is Abenaa");
+        alert("your day name is Abenaa");
     }
     else if(day===3&&gender==='female'){
-        console.log("your day name is akua");
+        alert("your day name is akua");
     }
     else if(day===4&&gender==='female'){
-        console.log("your day name is Yaa");
+        alert("your day name is Yaa");
     }
     else if(day===5&&gender==='female'){
-        console.log("your day name is Afua");
+        alert("your day name is Afua");
     }
     else if(day===6&&gender==='female'){
-        console.log("your day name is Ama");
+        alert("your day name is Ama");
+    }else{
+   
+        alert("wrong input")
     }
-    
-
-
+}
