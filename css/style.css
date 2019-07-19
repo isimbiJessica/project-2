@@ -15,6 +15,8 @@
 #container{
     background-image: url("https://s01.sgp1.cdn.digitaloceanspaces.com/article/107610-hxnhmfgfsi-1544252568.jpeg");
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    font-style: oblique;
+    font-size: 20px;
     
 }
