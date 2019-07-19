@@ -1,0 +1,14 @@
+.form{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #3378;
+    font-size: 20px;
+    font-family: verdana;
+    color: white
+}
+#tittle{
+    color:white;
+    text-align: center;
+    font-size: 18px;
+}
