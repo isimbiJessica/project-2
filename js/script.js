@@ -24,48 +24,48 @@ var formular=(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
 var day=Math.floor(formular);
 console.log(day);
 if(day== 0 && gender == 'male'){
-    document.getElementById('n').innerHTML= "your day name is Kwasi";
+    document.getElementById('n').innerHTML= " Kwasi";
 }
 else if(day==1&&gender=='male'){
-        console.log("your day name is Kwadwo");
+        console.log(" Kwadwo");
         
     }
     else if(day==2 && gender=='male'){
-        document.getElementById('n').innerHTML= "your day name is Kwabenaa";
+        document.getElementById('n').innerHTML= "is Kwabenaa";
     }
     else if(day==3 && gender=='male'){
-        document.getElementById('n').innerHTML= "your day name is Kwaku";
+        document.getElementById('n').innerHTML= "Kwaku";
     }
     else if(day==4 && gender=='male'){
-        document.getElementById('n').innerHTML= "your day name is yaw";
+        document.getElementById('n').innerHTML= "yaw";
     }
     else if(day==5 && gender=='male'){
-        document.getElementById('n').innerHTML= "your day name is Kofi";
+        document.getElementById('n').innerHTML= "Kofi";
     }
     else if(day==6 && gender=='male'){
-        document.getElementById('n').innerHTML= "your day name is Kwame";
+        document.getElementById('n').innerHTML= "Kwame";
     }
     else if(day===0 && gender==='female'){
-        document.getElementById('n').innerHTML= "your day name is Akosuo";
+        document.getElementById('n').innerHTML= "Akosuo";
     }
     else if(day===1&&gender==='female'){
-        document.getElementById('n').innerHTML= "your day name is Adwoa";
+        document.getElementById('n').innerHTML= "Adwoa";
         
     }
     else if(day===2&&gender==='female'){
-        document.getElementById('n').innerHTML= "your day name is Abenaa";
+        document.getElementById('n').innerHTML= "Abenaa";
     }
     else if(day===3&&gender==='female'){
-        document.getElementById('n').innerHTML= "your day name is Akua";
+        document.getElementById('n').innerHTML= "Akua";
     }
     else if(day===4&&gender==='female'){
-        document.getElementById('n').innerHTML= "your day name is Yaa";
+        document.getElementById('n').innerHTML= "Yaa";
     }
     else if(day===5&&gender==='female'){
-        document.getElementById('n').innerHTML= "your day name is Afua";
+        document.getElementById('n').innerHTML= "Afua";
     }
     else if(day===6&&gender==='female'){
-        document.getElementById('n').innerHTML= "your day name is Ama";
+        document.getElementById('n').innerHTML= "Ama";
     }else{
    
         console.log("wrong input")

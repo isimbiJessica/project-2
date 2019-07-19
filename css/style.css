@@ -18,8 +18,12 @@
     background-repeat: no-repeat;
     font-style: oblique;
     font-size: 26px;
-    color:white
+    color:white;
     margin-left: 20px;
     margin-left: 20px;
+
     
+}
+#left{
+    margin-right: 15px;
 }
