@@ -9,7 +9,7 @@ in this app include:
 - Months
 - Years
 ### Instruction to use the app
-user should fill 
+#### user should fill 
 - Names
 - Gender
 - Birthdate
@@ -29,7 +29,7 @@ after the user will get the name should have if is a ghanian accordingly to thei
 - Html
 - Css
 
-## AUTHOR: Jessica Ritha
+## AUTHOR: Jessica Ritha Isimbi
 ## Contact Me 
 - +(250)784967255
 - jessicaritha@gmail.com

@@ -68,6 +68,6 @@ else if(day==1&&gender=='male'){
         document.getElementById('n').innerHTML= "Ama";
     }else{
    
-        console.log("wrong input")
+        alert("wrong input")
     }
 }
