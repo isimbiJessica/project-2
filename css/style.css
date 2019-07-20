@@ -1,5 +1,5 @@
 .form{
-    width: 600px;
+    width: 700px;
     height: 500px;
     margin: auto;
     padding: 20px;
@@ -29,6 +29,9 @@
 }
 #left{
     margin-right: 15px;
+    text-align: center;
+    color: black;
+
 }
 #right{
     margin-left: 79px;
