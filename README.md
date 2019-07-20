@@ -16,5 +16,8 @@ in this app include:
 |years         | all years            |
 
 ## AUTHOR: Jessica Ritha
+## Contact Me 
+- +(250)784967255
+- jessicaritha@gmail.com 
 copyright &copy; AkanApp,  2019
 
