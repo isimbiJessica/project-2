@@ -8,6 +8,13 @@ in this app include:
 - Date
 - Months
 - Years
+### Instruction to use the app
+user should fill 
+- Names
+- Gender
+- Birthdate
+- Then Submit 
+after the user will get the name should have if is a ghanian accordingly to their days.
 
 |title         |Descriptio            |
 |--------------|----------------------|
